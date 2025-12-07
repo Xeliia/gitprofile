@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'Xeliia', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -25,11 +25,11 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Xeliia/Backend-LakBayan', 'Xeliia/TaskTide_Ripple', 'SirDrofflic/Voltizen-Meralco-IDOL-Hackathon', 'Xeliia/Meralco-Rate-API', 'AlexGaledo/dusktildawn_rpg', 'NewRi20/Library-Management-System-Kotlin', 'ey2ron/BANK-APP-GUI', 'AlexGaledo/DSA_Project_Bank'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: '',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -51,11 +51,11 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'GitHub profile of Axel Aaron G. Arceleta', description: '', imageURL: 'https://github.com/Xeliia/Webdev-Portfolio/blob/main/assets/img/my-profile-img.jpg' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'axel-aaron-arceleta',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -65,35 +65,41 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
+    discord: 'narumeiia',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://axel-arceleta.me/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'axelaaronarceleta@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'JavaScript',
+    'Svelte',
+    'Node.js',
+    'Python',
+    'Go',
+    'C',
+    'C++',
+    'Lua',
+    'Git',
+    'Linux',
+    'Azure',
+    'Bash',
+    'Powershell',
+    'Ansible',
+    'Github Actions',
+    'Django',
+    'PostgreSQL',
   ],
+  /*
   experiences: [
     {
       company: 'Company Name',
@@ -110,28 +116,30 @@ const CONFIG = {
       companyLink: 'https://example.com',
     },
   ],
+  */
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'CS50x',
+      body: 'Introduction to Computer Science',
+      year: 'August 2025',
+      link: 'https://certificates.cs50.io/f05392cf-47d5-4a57-9280-49ed63246af5.pdf?size=letter',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Technological University of the Philippines',
+      degree: 'Bachelor of Science in Computer Science',
+      from: '2023',
+      to: '2027',
     },
     {
       institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      degree: 'High School',
+      from: '2017',
+      to: '2022',
     },
   ],
+  /*
   publications: [
     {
       title: 'Publication Title',
@@ -152,15 +160,18 @@ const CONFIG = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
   ],
+  */
+  /*
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
+  */
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
@@ -168,7 +179,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -179,6 +190,7 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
+      /*
       'light',
       'dark',
       'cupcake',
@@ -209,12 +221,15 @@ const CONFIG = {
       'coffee',
       'winter',
       'dim',
+      */
       'nord',
+      /*
       'sunset',
       'caramellatte',
       'abyss',
       'silk',
       'procyon',
+      */
     ],
   },
 
