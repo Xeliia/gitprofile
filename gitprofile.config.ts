@@ -28,7 +28,9 @@ const CONFIG = {
         projects: ['Xeliia/Backend-LakBayan', 'Xeliia/TaskTide_Ripple', 'SirDrofflic/Voltizen-Meralco-IDOL-Hackathon', 'Xeliia/Meralco-Rate-API', 'AlexGaledo/dusktildawn_rpg', 'NewRi20/Library-Management-System-Kotlin', 'ey2ron/BANK-APP-GUI', 'AlexGaledo/DSA_Project_Bank'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
+    /*
     external: {
+      /
       header: '',
       // To hide the `External Projects` section, keep it empty.
       projects: [
@@ -51,6 +53,7 @@ const CONFIG = {
       ],
     },
   },
+  */
   seo: { title: 'GitHub profile of Axel Aaron G. Arceleta', description: '', imageURL: 'https://github.com/Xeliia/Webdev-Portfolio/blob/main/assets/img/my-profile-img.jpg' },
   social: {
     linkedin: 'axel-aaron-arceleta',
@@ -175,7 +178,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'nord',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
